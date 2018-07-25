@@ -1,11 +1,15 @@
 --------------------------------------------------------
+--  File created - Wednesday-July-25-2018   
+--------------------------------------------------------
+--------------------------------------------------------
 --  DDL for Table MEAS
 --------------------------------------------------------
 
   CREATE TABLE "DTAYLOR"."MEAS" 
    (	"M_ID" NUMBER(*,0), 
 	"S_ID" NUMBER(*,0), 
-	"TYPE" NUMBER(*,0)
+	"TYPE" NUMBER(*,0), 
+	"XYZ" NUMBER(*,0)
    ) SEGMENT CREATION IMMEDIATE 
   PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
  NOCOMPRESS LOGGING
